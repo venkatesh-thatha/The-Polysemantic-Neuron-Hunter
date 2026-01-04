@@ -2,9 +2,9 @@
 > *Deconstructing GPT-2 to find the "ghosts" in the machine.*
 
 ## What is this?
-We often treat Large Language Models (LLMs) like "Black Boxes"—we feed them text, and they spit out answers. But what happens inside?
+We often treat Large Language Models (LLMs) like "Black Boxes"-we feed them text, and they spit out answers. But what happens inside?
 
-This project is a **Mechanistic Interpretability** experiment. I didn't just want to run a model; I wanted to perform brain surgery on it. My goal was to hunt for **Polysemantic Neurons**—single neurons that secretly hold multiple, unrelated meanings.
+This project is a **Mechanistic Interpretability** experiment. I didn't just want to run a model; I wanted to perform brain surgery on it. My goal was to hunt for **Polysemantic Neurons**-single neurons that secretly hold multiple, unrelated meanings.
 
 ##  The Core Concepts
 Before hunting, we must understand the prey:
@@ -43,3 +43,6 @@ Building RAG apps is fun, but understanding the *engine* is crucial. This projec
 * **PyTorch (Tensors & Autograd)**
 * **TransformerLens**
 * **Plotly (Visualization)**
+
+## SIMPLE WORDS 
+cracked open a small AI model to hunt for a single neuron that handled two completely different concepts, like math and scripture. Instead, we found a "grammar specialist" that only activated on the word "by" to help structure sentences.
